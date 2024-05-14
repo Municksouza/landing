@@ -1,0 +1,40 @@
+.footer {
+  background-color: #452c63;
+  background: radial-gradient(circle, rgba(69,44,99,1) 0%, rgba(186,45,64,1) 100%);
+}
+
+.links-container {
+  display: flex;
+}
+
+.links ul {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+.links li {
+  font-size: 30px;
+  margin-top: 30px;
+  padding: 0 80px;
+
+}
+
+.paragraph-centered {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  margin: 30px;
+  color: #e70f28;
+}
+
+.fa-brands:hover {
+  color: rgb(30, 233, 165);
+}
+
+.fa-brands {
+  color: #df142c;
+}

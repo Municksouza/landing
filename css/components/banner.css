@@ -1,0 +1,66 @@
+.banner {
+  display: flex;
+  position: relative;
+  width: 100%;
+  height: 600px;
+  align-items: center;
+  justify-content: center;
+  overflow: hidden;
+}
+
+.banner img {
+  background-size: cover;
+  width: 100%;
+  height: 850px;
+}
+
+.put-inside-banner {
+  position: absolute;
+}
+
+.put-inside-banner h1{
+  color: white;
+}
+
+.put-inside-banner p {
+  font-size: 20px;
+  padding-top: 10px;
+  padding-bottom: 15px;
+  color: rgb(216, 202, 202);
+}
+
+.put-inside-banner a {
+  display: block;
+  padding: 15px 25px;
+  font-size: 24px;
+  text-align: center;
+  outline: none;
+  color: #fff;
+  background-color: #aa0473;
+  border: none;
+  border-radius: 15px;
+  box-shadow: 0 3px #999;
+  cursor: pointer;
+}
+
+.put-inside-banner a:hover {
+  animation: bubble 0.4s ease-out;
+}
+
+.put-inside-banner a:active {
+  background-color: #c92d95;
+  box-shadow: 0 5px #666;
+  transform: translateY(4px);
+}
+
+@keyframes bubble {
+  0% {
+    transform: scale(1);
+  }
+  50% {
+    transform: scale(1.1);
+  }
+  100% {
+    transform: scale(1);
+  }
+}

@@ -1,0 +1,39 @@
+/* Fonts */
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap');
+
+
+/* Fontawesome */
+@import url('https://use.fontawesome.com/releases/v6.1.2/css/all.css');
+
+/* Reset the Browser Config */
+@import url('components/reset.css');
+
+/* Import banner css*/
+@import url('components/banner.css');
+
+/* Import body css*/
+@import url('components/body.css');
+
+/* Import footer css*/
+@import url('components/footer.css');
+
+/* Utilities */
+body {
+  margin: 0;
+  font-family: Inter;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: Inter;
+  font-weight: bold;
+  font-size: 2em;
+}
+
+a {
+  text-decoration: none;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+}
